@@ -8,6 +8,11 @@ namespace ADSCodes
 {
     public static class StringValidate
     {
+        public static string NormalizeString(String input)
+        {
+            return input.ToLower().Trim().Replace(",", "");
+        }
+
         //string validation
         public static Boolean IsUppercase(string s)
         {
