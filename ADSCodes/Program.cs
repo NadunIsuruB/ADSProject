@@ -73,7 +73,6 @@ class Program
                 currentDepth = depth - 1;
                 i--;
             }
-            //currentDepth++;
         }
 
         return nodes[0];
