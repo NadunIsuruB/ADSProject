@@ -1,6 +1,6 @@
 ﻿namespace ADSCodes;
 
-class Node
+public class Node
 {
    public string value { get; set; }
    public Node left { get; set; }
